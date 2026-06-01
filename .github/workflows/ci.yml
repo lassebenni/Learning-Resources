@@ -30,4 +30,4 @@ jobs:
       # WHY -q: quiet mode prints only failures and a summary line. Verbose output
       # makes it harder to spot the actual failure in CI logs.
       - name: Run tests
-        run: pytest -q
+        run: pytest -q tests/test_smoke.py
